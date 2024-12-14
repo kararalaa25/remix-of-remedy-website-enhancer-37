@@ -11,13 +11,13 @@ const Hero = () => {
         <div className="flex justify-center space-x-4">
           <a
             href="#"
-            className="bg-[#40E0D0] text-white px-8 py-3 rounded-full hover:bg-[#3CC7B9] transition-colors duration-200"
+            className="bg-[#40E0D0] text-white px-8 py-3 rounded-full hover:bg-[#3CC7B9] transition-colors duration-200 w-32"
           >
             iOS
           </a>
           <a
             href="#"
-            className="bg-[#40E0D0] text-white px-8 py-3 rounded-full hover:bg-[#3CC7B9] transition-colors duration-200"
+            className="bg-[#40E0D0] text-white px-8 py-3 rounded-full hover:bg-[#3CC7B9] transition-colors duration-200 w-32"
           >
             Android
           </a>
