@@ -35,9 +35,9 @@ const Contact = () => {
         <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-3">
           Connect With Us
         </span>
-        <h2 className="section-title mb-4">Get in Touch</h2>
+        <h2 className="section-title mb-4">Follow Us</h2>
         <p className="section-subtitle mx-auto mb-12">
-          Have questions? We'd love to hear from you. Reach out through any of our channels.
+          Stay connected and follow our journey across social media.
         </p>
 
         {/* Social Links */}
@@ -64,7 +64,7 @@ const Contact = () => {
         <div className="mt-16 p-8 bg-background rounded-2xl shadow-lg border border-border/50">
           <h3 className="text-xl font-semibold mb-2">Ready to Start Your Journey?</h3>
           <p className="text-muted-foreground mb-6">
-            Download ReMedy today and take the first step toward exam success.
+            Download Remedy today and take the first step toward exam success.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
