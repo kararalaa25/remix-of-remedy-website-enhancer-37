@@ -33,7 +33,7 @@ const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-white/80 mb-10 leading-relaxed">
-            ReMedy is your trusted companion for mastering medical exams and building 
+            Remedy is your trusted companion for mastering medical exams and building 
             confidence for your journey in medicine. Review. Retain. Succeed.
           </p>
 
@@ -66,12 +66,8 @@ const Hero = () => {
           {/* Stats */}
           <div className="flex flex-wrap gap-8 mt-12 pt-8 border-t border-white/20">
             <div>
-              <div className="text-3xl font-bold text-white">500+</div>
+              <div className="text-3xl font-bold text-white">2000+</div>
               <div className="text-white/70 text-sm">Free Questions</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-accent">98%</div>
-              <div className="text-white/70 text-sm">Pass Rate</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-white">24/7</div>

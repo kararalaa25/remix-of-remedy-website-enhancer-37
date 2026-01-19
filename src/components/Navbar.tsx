@@ -43,9 +43,8 @@ const Navbar = () => {
               alt="ReMedy Logo"
               className="h-14 w-14"
             />
-            <span className="text-2xl font-bold">
-              <span style={{ color: "#fcac4d" }}>Re</span>
-              <span style={{ color: "#34ccd2" }}>Medy</span>
+            <span className="text-2xl font-bold text-primary">
+              Remedy
             </span>
           </Link>
 

@@ -11,18 +11,17 @@ const Footer = () => {
           <Link to="/" className="flex items-center space-x-3">
             <img
               src="/lovable-uploads/1588d211-7ac9-4330-8fc3-d4e8fd1a2953.png"
-              alt="ReMedy Logo"
+              alt="Remedy Logo"
               className="h-10 w-10"
             />
-            <span className="text-xl font-bold">
-              <span style={{ color: "#fcac4d" }}>Re</span>
-              <span style={{ color: "#34ccd2" }}>Medy</span>
+            <span className="text-xl font-bold text-primary">
+              Remedy
             </span>
           </Link>
 
           {/* Copyright */}
           <p className="text-white/60 text-sm">
-            © {currentYear} ReMedy. All rights reserved.
+            © {currentYear} Remedy. All rights reserved.
           </p>
         </div>
       </div>
