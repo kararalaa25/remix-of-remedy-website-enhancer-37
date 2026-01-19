@@ -35,17 +35,39 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-24 px-4 bg-gray-50">
+    <section id="features" className="py-24 px-4 bg-secondary">
       <div className="max-w-7xl mx-auto">
-        <h2 className="section-title">Amazing Features</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature) => (
-            <div key={feature.title} className="feature-card">
-              <div className="mb-4">
-                <feature.icon className="w-12 h-12 mx-auto" color="#fcac4d" />
+        {/* Section Header */}
+        <div className="text-center mb-16">
+          <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-3">
+            Why Choose ReMedy
+          </span>
+          <h2 className="section-title">Amazing Features</h2>
+          <p className="section-subtitle mx-auto">
+            Everything you need to ace your medical exams in one powerful platform
+          </p>
+        </div>
+
+        {/* Features Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          {features.map((feature, index) => (
+            <div 
+              key={feature.title} 
+              className="feature-card group"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              {/* Icon */}
+              <div className="w-14 h-14 rounded-xl bg-accent/10 flex items-center justify-center mb-5 group-hover:bg-accent/20 transition-colors duration-300">
+                <feature.icon className="w-7 h-7 text-accent" />
               </div>
-              <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+
+              {/* Content */}
+              <h3 className="text-xl font-semibold mb-3 text-foreground">
+                {feature.title}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {feature.description}
+              </p>
             </div>
           ))}
         </div>
