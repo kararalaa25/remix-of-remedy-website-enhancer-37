@@ -140,7 +140,7 @@ const Pricing = () => {
               </div>
               <h4 className="text-xl font-bold text-white mb-2">QiCard</h4>
               <p className="text-white/70 text-sm mb-4">Send payment to:</p>
-              <div className="bg-white/10 rounded-lg px-4 py-3 inline-block">
+              <div className="bg-foreground rounded-lg px-4 py-3 inline-block">
                 <span className="text-accent font-mono text-lg font-bold tracking-wider">
                   9448865833
                 </span>
