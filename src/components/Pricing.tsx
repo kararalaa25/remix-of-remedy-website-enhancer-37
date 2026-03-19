@@ -156,16 +156,13 @@ const Pricing = () => {
               <h4 className="text-xl font-bold text-white mb-2">Zain Cash</h4>
               <p className="text-white/70 text-sm mb-4">Send payment to:</p>
               <div className="bg-white/10 rounded-lg px-4 py-3 inline-block mb-6">
-                <span className="text-accent font-mono text-lg font-bold tracking-wider">
+                <span className="text-foreground font-mono text-lg font-bold tracking-wider">
                   07772149000
                 </span>
               </div>
-              {/* QR Code Placeholder */}
-              <div className="mx-auto w-40 h-40 bg-white rounded-xl flex flex-col items-center justify-center shadow-md">
-                <QrCode className="w-16 h-16 text-muted-foreground mb-2" />
-                <span className="text-xs text-muted-foreground font-medium">
-                  Scan to Pay
-                </span>
+              {/* QR Code */}
+              <div className="mx-auto w-40 h-40 bg-white rounded-xl flex flex-col items-center justify-center shadow-md p-2">
+                <img src={zaincashQr} alt="Zain Cash QR Code" className="w-full h-full object-contain" />
               </div>
             </div>
           </div>
