@@ -1,4 +1,5 @@
-import { Check, CreditCard, Smartphone, QrCode } from "lucide-react";
+import { Check, CreditCard, Smartphone } from "lucide-react";
+import zaincashQr from "@/assets/zaincash-qr.png";
 
 const Pricing = () => {
   const plans = [
