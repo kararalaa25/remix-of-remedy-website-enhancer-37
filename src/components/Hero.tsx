@@ -61,17 +61,6 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* Stats */}
-          <div className="flex flex-wrap gap-8 mt-12 pt-8 border-t border-white/20">
-            <div>
-              <div className="text-3xl font-bold text-white">2000+</div>
-              <div className="text-white/70 text-sm">Free Questions</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-white">2</div>
-              <div className="text-white/70 text-sm">Devices Supported</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
