@@ -26,7 +26,7 @@ const Hero = () => {
 
           {/* Headline */}
           <h1 className="hero-text text-white mb-6">
-            <span className="text-primary">Review Medicine</span>, it's really worth it,
+            <span className="text-primary">Review Medicine</span>, it's really worth it
           </h1>
 
           {/* Subtitle */}
@@ -45,7 +45,7 @@ const Hero = () => {
               <img
                 src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
                 alt="Download on the App Store"
-                className="h-[48px] md:h-[56px] w-auto"
+                className="h-[40px] md:h-[48px]"
               />
             </a>
             <a
@@ -56,7 +56,7 @@ const Hero = () => {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
                 alt="Get it on Google Play"
-                className="h-[48px] md:h-[56px] w-auto"
+                className="h-[40px] md:h-[48px]"
               />
             </a>
           </div>

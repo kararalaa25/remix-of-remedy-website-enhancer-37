@@ -85,7 +85,7 @@ const Pricing = () => {
           {plans.map((plan) =>
           <div
             key={plan.title}
-            className={`rounded-2xl p-6 md:p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl ${
+            className={`rounded-2xl p-6 md:p-8 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl flex flex-col ${
             plan.featured ?
             "bg-white shadow-2xl ring-2 ring-accent scale-[1.02]" :
             "bg-white/95 shadow-xl"}`
@@ -107,7 +107,7 @@ const Pricing = () => {
                   IQD
                 </span>
               </div>
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-3 mb-8 flex-1">
                 {plan.features.map((feature) =>
               <li key={feature} className="flex items-start gap-2">
                     <Check className="w-5 h-5 text-primary shrink-0 mt-0.5" />
