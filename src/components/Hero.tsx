@@ -45,7 +45,7 @@ const Hero = () => {
               <img
                 src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
                 alt="Download on the App Store"
-                className="h-12 md:h-14"
+                className="h-[48px] md:h-[56px] w-auto"
               />
             </a>
             <a
@@ -56,7 +56,7 @@ const Hero = () => {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
                 alt="Get it on Google Play"
-                className="h-12 md:h-14"
+                className="h-[48px] md:h-[56px] w-auto"
               />
             </a>
           </div>
