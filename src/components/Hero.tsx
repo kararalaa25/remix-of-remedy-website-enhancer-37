@@ -26,7 +26,7 @@ const Hero = () => {
 
           {/* Headline */}
           <h1 className="hero-text text-white mb-6">
-            <span className="text-primary">Review Medicine</span>, it's really worth it,
+            <span className="text-primary">Review Medicine</span>, it's really worth it
           </h1>
 
           {/* Subtitle */}
