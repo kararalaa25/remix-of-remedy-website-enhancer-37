@@ -14,7 +14,7 @@ const Features = () => {
     },
     {
       title: "Free Trial",
-      description: "You can try the Qbank freely with more than 2000 questions available free. The first subject of each branch and the Wizary branch are all free. The Library also has a few articles available free to test",
+      description: "You can try the Qbank freely with more than 2000 questions available free. The Library also has a few articles available free to test",
       icon: Gift,
     },
     {
