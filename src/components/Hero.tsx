@@ -51,14 +51,14 @@ const Hero = () => {
               />
             </a>
             <a
-              href="https://play.google.com/store/apps/details?id=com.enigma.remedy&pcampaignid=web_share"
+              href="https://play.google.com/store/apps/details?id=com.enigma.remedy&pli=1"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block transition-transform duration-200 hover:scale-105"
               aria-label="Get it on Google Play"
             >
               <img
-                src="https://play.google.com/store/apps/details?id=com.enigma.remedy&pcampaignid=web_share"
+                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
                 alt="Get it on Google Play"
                 className="h-[48px] md:h-[56px]"
               />
