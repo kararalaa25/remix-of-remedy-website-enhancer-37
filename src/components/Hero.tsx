@@ -51,7 +51,9 @@ const Hero = () => {
               />
             </a>
             <a
-              href="#"
+              href="https://play.google.com/store/apps/details?id=com.enigma.remedy&pcampaignid=web_share"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block transition-transform duration-200 hover:scale-105"
               aria-label="Get it on Google Play"
             >
