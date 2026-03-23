@@ -36,7 +36,7 @@ const Hero = () => {
           </p>
 
           {/* App Store Badges */}
-          <div className="flex flex-col sm:flex-row items-center gap-4">
+          <div className="flex flex-col sm:flex-row items-start gap-3">
             <a
               href="https://apps.apple.com/us/app/remedy-platform/id6737006336"
               target="_blank"
@@ -47,7 +47,7 @@ const Hero = () => {
               <img
                 src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
                 alt="Download on the App Store"
-                className="h-[48px] md:h-[56px]"
+                className="h-[44px]"
               />
             </a>
             <a
@@ -60,7 +60,7 @@ const Hero = () => {
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
                 alt="Get it on Google Play"
-                className="h-[48px] md:h-[56px]"
+                className="h-[44px]"
               />
             </a>
           </div>
