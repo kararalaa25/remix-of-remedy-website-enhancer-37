@@ -38,7 +38,9 @@ const Hero = () => {
           {/* App Store Badges */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a
-              href="#"
+              href="https://apps.apple.com/us/app/remedy-platform/id6737006336"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block transition-transform duration-200 hover:scale-105"
               aria-label="Download on the App Store"
             >
